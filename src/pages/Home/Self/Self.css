@@ -1,0 +1,29 @@
+.self_container{
+    margin-top: 100px;
+}
+.self_img img{
+    width: 80%;
+    height: 120%;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+.self_content{
+    margin-top: 70px;
+}
+.self_content p{
+    text-align: justify;
+}
+.resume_link{
+    text-decoration: none;
+}
+.resume_link:hover{
+    color: #fff;
+}
+
+
+/* Make it responsive */
+@media only screen and (max-width:991px) {
+    .self_img{
+        text-align: center;
+    }
+}
