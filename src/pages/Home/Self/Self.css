@@ -13,6 +13,9 @@
 .self_content p{
     text-align: justify;
 }
+.self_content small{
+    font-weight: 700;
+}
 .resume_link{
     text-decoration: none;
 }
