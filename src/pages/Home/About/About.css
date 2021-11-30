@@ -1,0 +1,12 @@
+.about_container{
+    text-align: center;
+    width: 70%;
+    margin: 100px auto;
+}
+.about_full img{
+    width: 100%;
+}
+.about_full p{
+    text-align: justify;
+    margin: 20px 0px;
+}

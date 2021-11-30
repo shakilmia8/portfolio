@@ -6,6 +6,7 @@ import Navigation from './pages/Shared/Navigation/Navigation';
 import Home from './pages/Home/Home/Home';
 import Blog from './pages/Home/Blog/Blog';
 import WorkDetails from './pages/Home/WorkDetails/WorkDetails';
+import About from './pages/Home/About/About';
 import Footer from './pages/Shared/Footer/Footer';
 import NotFound from './pages/NotFound/NotFound';
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
         <Route path="/workDetails/:workId" element={<WorkDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

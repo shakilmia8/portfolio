@@ -31,7 +31,7 @@ const WorkDetails = () => {
                             <Card.Title></Card.Title>
                             <Card.Text>
                             </Card.Text>
-                            <Link to={`/home`}><Button variant='outline-primary'>Back to home</Button></Link>
+                            <Link style={{ textAlign: 'center' }} to={`/home`}><Button variant='outline-primary'>Back to home</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>
