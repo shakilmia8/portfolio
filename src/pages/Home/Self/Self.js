@@ -18,7 +18,7 @@ const Self = () => {
                         <small>Full-Stack Developer</small> <br /><br />
                         <p>My background however has always been design-driven. I've always been excited with the idea of crafting something that people can interact with. Anyway, I am a full-stack web developer with solid knowledge in different technologies & enough experience in creating & designing super responsive websites. Also have a good experienced in creating modern SPA applications. I worked for over a year on full-stack web design and development.</p>
 
-                        <Button variant="outline-primary"><a className='resume_link' href="https://drive.google.com/uc?id=1PdRGrw2yRgpv8_agHTEPZyvyV5xBTgCm&export=download">Download Resume</a></Button>
+                        <Button variant="outline-primary"><a className='resume_link' href="https://drive.google.com/uc?id=1PdRGrw2yRgpv8_agHTEPZyvyV5xBTgCm&export=download">Download Resume</a></Button>{' '}
                         <Link to='/about'><Button variant="outline-primary">About Me</Button></Link>
                     </Col>
                 </Row>
