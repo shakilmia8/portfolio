@@ -1,0 +1,35 @@
+.works_container{
+    padding: 60px 20px;
+}
+.works_container{
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-name: pic;
+}
+@keyframes pic {
+    from{
+        margin-right: -100%;
+    }
+    to{
+        margin-right: 0px;
+    }
+}
+.works_container h2 ,p {
+    text-align: center;
+}
+.works_container p{
+    margin-bottom: 30px;
+}
+.works_container a{
+    text-decoration: none;
+}
+.works_container a:hover{
+    color: #fff;
+}
+.works_img{
+    height: 400px;
+}
+.works_button{
+    display: flex;
+    justify-content: space-around;
+}

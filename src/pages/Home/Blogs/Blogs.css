@@ -1,0 +1,13 @@
+.blogs_full{
+    padding: 50px 10px;
+}
+.blogs_full h2{
+text-align: center;
+margin-bottom: 30px;
+}
+.blogs_full Button{
+    margin-left: 30%;
+}
+.blogs_text{
+    text-align: justify;
+}

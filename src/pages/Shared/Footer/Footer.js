@@ -16,9 +16,9 @@ const Footer = () => {
                 <div>
                     <h4>Other Contact</h4>
                     <ul>
-                        <li><a target='_blank' href="https://www.facebook.com/shakil.cpi.5"><i className="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li><a href="https://www.facebook.com/shakil.cpi.5"><i className="fab fa-facebook-square"></i> Facebook</a></li>
                         <li><i className="fab fa-twitter-square"></i> Twitter</li>
-                        <li><i className="fab fa-instagram-square"></i> Instagram</li>
+                        <li><a href="https://www.linkedin.com/in/md-tariqul-islam-4b525b227"><i className="fab fa-linkedin"></i> LinkedIn</a></li>
                         <li><i className="fab fa-youtube-square"></i> Youtube</li>
                     </ul>
                 </div>

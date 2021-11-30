@@ -1,13 +1,31 @@
+.self_full{
+    background-color: rgba(72, 245, 202, 0.37);
+    padding: 50px 0px;
+}
+.self_img{
+    animation-duration: 4s;
+    animation-name: shakilpic;
+}
+@keyframes shakilpic {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
 .self_container{
-    margin-top: 100px;
-    margin-bottom: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .self_img img{
     width: 80%;
     height: 120%;
     border-radius: 50%;
     border: 5px solid #ddd;
+    transition: transform 5.5s ease-in;
 }
+
 .self_content{
     margin-top: 70px;
 }
